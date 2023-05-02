@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 25px;
+    background: #010107;
+}
+.box{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .99s ease;
+}
+.box:hover{
+    width: 200px;
+    background: #c32aa3;
+    border-radius: 35px;
+    color: #fff;
+    box-shadow: 0 0 50px #b315917c;
+}
+.box:nth-child(2):hover{
+    background: #25d366;
+    box-shadow: 0 0 50px #25d3657e;
+}
+.box:nth-child(3):hover{
+    background: rgb(255, 28, 28);
+    box-shadow: 0 0 50px rgb(255, 73, 73);
+}
+.box:nth-child(4):hover{
+    background: rgb(83, 158, 255);
+    box-shadow: 0 0 50px #1da0f280;
+}
+.box:nth-child(5):hover{
+    background: #2962ff;
+    box-shadow: 0 0 50px #2080ee80;
+}
+.box:nth-child(6):hover{
+    background: rgb(102,157,246);
+    box-shadow: 0 0 50px #5faaff80;
+}
+.box:nth-child(7):hover{
+    background: #a25ad8;
+    box-shadow: 0 0 50px #914ffb80;
+}
+.navbar p{
+    transform: translate(60px);
+}
+.box .icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10%;
+    transition: all .99s ease;
+}
+.instagram{
+    background-color: #c32aa3;
+}
+.whatsapp{
+    background-color: #25d366;
+}
+.youtube{
+    background-color: rgb(255, 28, 28);
+}
+.twitter{
+    background-color: rgb(83, 158, 255);
+}
+.facebook{
+    background-color: #2962ff;
+}
+.discord{
+    background-color: rgb(102,157,246);
+}
+.twitch{
+    background-color: #a25ad8;
+}
+.box:hover .icon{
+    background: #fff;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0,0,0,0.26);
+}
+ul {
+    display: block;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 50px;
+}
+
+a {
+    color: white;
+    align-items: center;
+    margin-left: 0%;
+    font-family:Verdana, Tahoma, sans-serif;
+    padding-bottom: 10%;
+    
+}
+ul >li{
+    margin: 20px;
+}
+.center {
+    text-align: center;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #7B68EE;
+}

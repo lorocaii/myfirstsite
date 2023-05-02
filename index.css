@@ -1,0 +1,94 @@
+body {
+    color: white;
+    background: #E0FFFF url('imagem/apenas.png') no-repeat center center fixed;
+    background-size: cover; 
+    font-family:'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 50px;
+}
+
+a {
+    color: white;
+    font-size: 25px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #7B68EE;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', 'monospace';
+    text-align: center;
+    text-decoration:overline;
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 80px;
+    text-decoration:underline;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    text-decoration: underline;
+}
+
+
+footer img {
+    width: 80px;
+    height: 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 50px;
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: face;
+    src: url("https://www.w3.org/Style/Examples/007/fonts.en.html");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif, sans-serif;
+}
+
+p {
+    font-size: 25px;
+    text-indent: 30px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}

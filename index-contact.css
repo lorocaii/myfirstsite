@@ -1,0 +1,24 @@
+/* .contact-form input{ *
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+main> section> h3{
+    font-size: 30px;
+}
+
+header > h2{
+    font-size: 45px;
+}
